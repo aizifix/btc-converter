@@ -1,0 +1,93 @@
+* {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      border-style: none;
+      outline: none;
+    }
+    
+    .wrapper {
+      max-width: 500px;
+      margin: 0 auto;
+    }
+    
+    .input__container {
+      width: 100%;
+      height: auto;
+      padding: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+    }
+    
+    .input__container button {
+      padding: 0.5rem 1rem;
+      color: white;
+      background-color: #F0A115;
+      border-radius: 0.2rem;
+    }
+    
+    .input__container img {
+      height: 3rem;
+    }
+    
+    .input__box {
+      border: 1px solid #979797;
+      border-radius: 0.2rem;
+      height: 2rem;
+      overflow: hidden;
+    }
+    
+    .input__box input {
+      border-style: none;
+      padding: 0.5rem;
+      height: 100%;
+      width: 100%;
+    }
+    
+    .convert__box {
+      padding: 2rem;
+      width: 100%;
+      height: auto;
+    }
+    
+    .convert__container p {
+      width: 3rem;
+      text-align: center;
+      background-color: #02930A3D;
+      border: 1px solid #02930A;
+      color: #044507;
+      margin: 2rem 0;
+      padding: 0.5rem;
+      border-radius: 0.3rem;
+    }
+    
+    .convert__container {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    
+    .convert__container input {
+      border: 1px solid #CDCDCD;
+      border-radius: 0.2rem;
+      padding: 0.5rem;
+      height: 2.3rem;
+      width: 100%;
+    }
+    
+    
+    .clear__container button {
+      height: 100%;
+      width: 100%;
+      padding: 1rem;
+      color: white;
+      background-color: #B8B8B8;
+      border-radius: 0.3rem;
+    }
+    
+    .clear__container button:active {
+      background-color: #B8B8B885;
+    }
+    
